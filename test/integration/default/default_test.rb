@@ -14,6 +14,6 @@ end
 describe package('python3') do
   it { should be_installed }
 end
-describe package('pip3') do
+describe package('python3-pip') do
   it { should be_installed }
 end
